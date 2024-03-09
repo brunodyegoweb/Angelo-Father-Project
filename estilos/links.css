@@ -9,3 +9,12 @@
     text-align: center;
     line-height: 50px;
 }
+
+.links:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.links:hover > .link:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+}
