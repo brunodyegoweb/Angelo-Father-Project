@@ -20,6 +20,11 @@
     padding: 10px;
 }
 
+.checkbox {
+    height: 1px;
+    padding: 1px;
+}
+
 .form button {
     height: 50px;
     width: 50%;
