@@ -45,8 +45,24 @@
   pointer-events: none;
   font-size: 12px;
   color: #000;
-  text-transform: uppercase;
   transition: 0.5s;
   letter-spacing: 3px;
+  border-radius: 8px;
+}
+
+.inputBox input:valid~span,
+.inputBox input:focus~span {
+  transform: translateX(113px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #000;
+  letter-spacing: 0.2em;
+  color: #fff;
+  border: 2px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus {
+  border: 2px solid #000;
   border-radius: 8px;
 }
