@@ -1,5 +1,7 @@
 .inputBox {
+    width: 250px;
     display: flex;
+    position: relative;
     flex-direction: column;
 }
 
@@ -9,4 +11,9 @@
     background-color: transparent;
     border-left: 2px solid yellowgreen;
     border-bottom: 2px solid yellowgreen;
+}
+
+.inputBox span {
+    position: absolute;
+    margin-left: 10px;
 }
