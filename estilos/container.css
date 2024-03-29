@@ -1,5 +1,8 @@
 .container {
+ gap: 10px;
  display: flex;
  flex-direction: column;
+
+ border: 2px solid yellowgreen;
 }
 
