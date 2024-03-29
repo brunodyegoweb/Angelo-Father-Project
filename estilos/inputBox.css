@@ -1,0 +1,12 @@
+.inputBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox input {
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-left: 2px solid yellowgreen;
+    border-bottom: 2px solid yellowgreen;
+}

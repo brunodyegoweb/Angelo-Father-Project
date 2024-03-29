@@ -1,8 +1,9 @@
 .container {
- gap: 10px;
+ gap: 30px;
  display: flex;
  flex-direction: column;
 
+ color: #fff;
  border: 2px solid yellowgreen;
 }
 
