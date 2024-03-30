@@ -1,3 +1,29 @@
 form {
-    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    width: 300px;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 15px;
+    background: #e3e3e3;
+    box-shadow: 16px 16px 32px #c8c8c8,
+          -16px -16px 32px #fefefe;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+form button {
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
 }
