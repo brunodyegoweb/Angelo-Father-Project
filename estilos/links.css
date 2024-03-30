@@ -2,5 +2,13 @@
     height: 80px;
     width: 180px;
     padding: 10px;
+    cursor: pointer;
+    transition: 400ms;
+    border-radius: 10px;
     background-color: #fff;
 }
+
+.links:hover {
+    transform: scale(1.1, 1.1);
+}
+
